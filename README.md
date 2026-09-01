@@ -20,7 +20,6 @@ Os desafios estão organizados de acordo com seus respectivos níveis:
 - Java
 - IntelliJ IDEA
 - Git
-- GitHub
 
 ## 📈 Progresso
 
