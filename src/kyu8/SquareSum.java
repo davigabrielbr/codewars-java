@@ -11,7 +11,6 @@ package kyu8;
 public class SquareSum {
     public static void main(String[] args) {
         int[] n = {1, 2, 2};
-
         System.out.println(squareSum(n));
     }
 
