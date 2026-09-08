@@ -22,8 +22,8 @@ public class Counter {
     public static int countSheeps(Boolean[] arrayOfSheeps) {
         int counter = 0;
 
-        for (int i = 0; i < arrayOfSheeps.length; i++) {
-            if (arrayOfSheeps[i] != null && arrayOfSheeps[i]) {
+        for (Boolean arrayOfSheep : arrayOfSheeps) {
+            if (arrayOfSheep != null && arrayOfSheep) {
                 counter++;
             }
         }
