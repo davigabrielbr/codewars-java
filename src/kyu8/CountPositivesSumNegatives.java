@@ -20,6 +20,10 @@ public class CountPositivesSumNegatives {
     }
 
     public static int[] countPositivesSumNegatives(int[] input) {
+        if (input == null || input.length == 0) {
+            return new int[]{};
+        }
+
         int count = 0;
         int sum = 0;
 
