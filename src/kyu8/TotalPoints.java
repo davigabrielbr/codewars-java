@@ -10,7 +10,7 @@ For example: ["3:1", "2:2", "0:1", ...]
 
 Points are awarded for each match as follows:
 
-        if x > y: 3 points (win)
+if x > y: 3 points (win)
 if x < y: 0 points (loss)
 if x = y: 1 point (tie)
 We need to write a function that takes this collection and
@@ -20,7 +20,7 @@ Notes:
 
 our team always plays 10 matches in the championship
 0 <= x <= 4
-        0 <= y <= 4*/
+0 <= y <= 4*/
 
 public class TotalPoints {
     public static void main(String[] args) {
@@ -30,8 +30,8 @@ public class TotalPoints {
     public static int points(String[] games) {
         int x = 0;
 
-        for (int i = 0; i < games.length; i++) {
-            String[] result = games[i].split(":");
+        for (String game : games) {
+            String[] result = game.split(":");
 
             int ourTeamScore = Integer.parseInt(result[0]);
             int opponentScore = Integer.parseInt(result[1]);
